@@ -29,6 +29,8 @@ class CheezeListing
     private $description;
 
     /**
+     * The price of this weird cheeze, in cents.
+     *
      * @ORM\Column(type="integer")
      */
     private $price;
